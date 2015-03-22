@@ -26,4 +26,4 @@
   <li><strong>Conscious Acts of Kindness</strong> - Write 1 positive email praising or thanking someone in their social support network. Alternatively plan and carry out one positive act for someone in your social network, then write about it here, reflect on what you did and how it made you and the recipient of your positive act feel.</li>
 </ul>
 
-<a href="http://ericfrisino.com/absolute-happiness-wordpress-plugin/">Read the full docs here.</a>
+<a href="http://ericfrisino.com/absolute-happiness-wordpress-plugin/">Read the full docs here</a>.
