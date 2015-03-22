@@ -49,10 +49,3 @@ include_once('javascript/abh-enqueue-javascript.php');
  * Enqueue custom StyleSheets
  *----------------------------------------------------------------------------*/
 include_once('stylesheets/abh-enqueue-stylesheets.php');
-
-/*----------------------------------------------------------------------------*
- * Flush Rewrite Rules on Plugin Activation & Deactivation
- *----------------------------------------------------------------------------*/
-function abh_flush_rewrite_rules() { flush_rewrite_rules(); }
-register_activation_hook( __FILE__, 'abh_flush_rewrite_rules' );
-register_deactivation_hook( __FILE__, 'abh_flush_rewrite_rules' );
