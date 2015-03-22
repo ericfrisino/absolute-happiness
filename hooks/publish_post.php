@@ -18,7 +18,7 @@ function abh_email_kindness_recipient( $ID, $post ) {
     $abh_kindness_email_name = wp_kses( get_post_meta( $ID, 'abh-kindness-email-name', true ), '', '' );
     $abh_kindness_email_address = sanitize_email( get_post_meta( $ID, 'abh-kindness-email-address', true ), '', '' );
 
-    // Get email subject and content. TODO add subject to the metadata
+    // Get email subject and content.
     $abh_kindness_email_subject = wp_kses( get_post_meta( $ID, 'abh-kindness-email-subject', true ), '', '' );
     $abh_kindness_email_content = wp_kses( get_post_meta( $ID, 'abh-kindness-email-content', true ), '', '' );
 
