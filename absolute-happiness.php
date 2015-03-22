@@ -8,7 +8,7 @@
  *
  * @wordpress-plugin
  * Plugin Name:       Absolute Happiness
- * Plugin URI:        absolute-happiness.ericfrisino.com
+ * Plugin URI:        http://ericfrisino.com/absolute-happiness-wordpress-plugin/
  * Description:       A plugin aimed at helping you rewire how your brain to see the positive first.
  * Version:           0.0.1
  * Author:            Eric Frisino
@@ -18,7 +18,7 @@
  * License:           GPL-2.0+
  * License URI:       http://www.gnu.org/licenses/gpl-2.0.txt
  * Domain Path:       /languages
- * GitHub Plugin URI: TODO: upload to github.
+ * GitHub Plugin URI: https://github.com/ericfrisino/absolute-happiness
  */
 
 /*----------------------------------------------------------------------------*
