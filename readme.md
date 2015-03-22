@@ -1,5 +1,7 @@
 <p>The Absolute Happiness WordPress Plugin helps you take advantage of the Happiness Advantage by training your brain to scan for the positive first.</p>
 
+<p>This plugin is based on the book <a href="http://www.amazon.com/gp/product/0307591549">The Happiness Advantage</a> by Shawn Achor. If reading is not so much your thing check out <a href="http://on.ted.com/Achor">Achor's funny and informative Ted Talk</a> about how your happiness affects your work. I also suggest that you head over to Twitter and give <a href="https://twitter.com/shawnachor">Achor a follow</a>.</p>
+
 <blockquote>"the lens through which your brain views the world that shapes your reality. And if we can change the lens, not only can we change your happiness, we can change every single educational and business outcome at the same time." -Shawn Archer</blockquote>
 <ul>
   <li><strong>Happy doctors</strong> have 3x more intelligence and creativity and make accurate diagnosis 19% faster</li>
