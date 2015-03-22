@@ -44,7 +44,7 @@ function abh_email_kindness_recipient( $ID, $post ) {
 
     // Set email headers.
     $headers[] = sprintf( 'From: %s <%s>', $author_name, $author_email );
-    $headers[] = sprintf( 'CC: %s <%s>', $author_name, $author_email );
+    $headers[] = sprintf( 'Cc: %s <%s>', $author_name, $author_email );
     $headers[] = sprintf( 'Reply-to: %s <%s>', $author_name, $author_email );
 
     // Send the email :)
