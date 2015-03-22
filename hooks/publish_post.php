@@ -11,16 +11,16 @@
 function abh_email_kindness_recipient( $ID, $post ) {
 
   // Get kindness email toggle post meta.
-  $abh_kindness_email_toggle = get_post_meta( $post->ID, 'abh-kindness-email-toggle', true );
+  $abh_kindness_email_toggle = $GLOBALS['_POST']['abh-kindness-email-toggle'];
   // If it is set to true, continue to email the recipient.
   if( $abh_kindness_email_toggle == 1 ) {
     // Get recipients email name & address.
-    $abh_kindness_email_name = wp_kses( get_post_meta( $ID, 'abh-kindness-email-name', true ), '', '' );
-    $abh_kindness_email_address = sanitize_email( get_post_meta( $ID, 'abh-kindness-email-address', true ), '', '' );
+    $abh_kindness_email_name =    isset($GLOBALS['_POST']['abh-kindness-email-name']) ? wp_kses( $GLOBALS['_POST']['abh-kindness-email-name'], '', '' ) : null;
+    $abh_kindness_email_address = isset($GLOBALS['_POST']['abh-kindness-email-address']) ? sanitize_email( $GLOBALS['_POST']['abh-kindness-email-address'], '', '' ) : null;
 
     // Get email subject and content.
-    $abh_kindness_email_subject = wp_kses( get_post_meta( $ID, 'abh-kindness-email-subject', true ), '', '' );
-    $abh_kindness_email_content = wp_kses( get_post_meta( $ID, 'abh-kindness-email-content', true ), '', '' );
+    $abh_kindness_email_subject = isset($GLOBALS['_POST']['abh-kindness-email-subject']) ? wp_kses( $GLOBALS['_POST']['abh-kindness-email-subject'], '', '' ) : null;
+    $abh_kindness_email_content = isset($GLOBALS['_POST']['abh-kindness-email-content']) ? wp_kses( $GLOBALS['_POST']['abh-kindness-email-content'], '', '' ) : null;
 
     // Get post author information.
     $author = $post->post_author; /* Returns Author's ID. */
