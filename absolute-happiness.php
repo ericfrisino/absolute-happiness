@@ -10,7 +10,7 @@
  * Plugin Name:       Absolute Happiness
  * Plugin URI:        http://ericfrisino.com/absolute-happiness-wordpress-plugin/
  * Description:       A plugin aimed at helping you rewire how your brain to see the positive first.
- * Version:           1.0
+ * Version:           1.0.0
  * Author:            Eric Frisino
  * Author URI:        http://ericrisino.com
  * Prefix:            abh
